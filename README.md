@@ -1,3 +1,5 @@
+# 对接Hzero: [对接指南](./docs/jhipster-to-hzero.md)
+
 # hzerotest
 
 This application was generated using JHipster 6.10.3, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v6.10.3](https://www.jhipster.tech/documentation-archive/v6.10.3).
