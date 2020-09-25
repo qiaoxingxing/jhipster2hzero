@@ -62,9 +62,11 @@ hystrix:
   shareSecurityContext: true
 
 management:
+  server:
+    port: 8082
   endpoints:
     web:
-      base-path: /management
+#      base-path: /management
       exposure:
         include: ['configprops', 'env', 'health', 'info', 'jhimetrics', 'logfile', 'loggers', 'prometheus', 'threaddump']
   endpoint:
@@ -184,17 +186,17 @@ jhipster:
   #     max-age: 1800
   mail:
     from: hzerotest@localhost
-  swagger:
-    default-include-pattern: /api/.*
-    title: hzerotest API
-    description: hzerotest API documentation
-    version: 0.0.1
-    terms-of-service-url:
-    contact-name:
-    contact-url:
-    contact-email:
-    license: unlicensed
-    license-url:
+#  swagger:
+#    default-include-pattern: /api/.*
+#    title: hzerotest API
+#    description: hzerotest API documentation
+#    version: 0.0.1
+#    terms-of-service-url:
+#    contact-name:
+#    contact-url:
+#    contact-email:
+#    license: unlicensed
+#    license-url:
 # ===================================================================
 # Application specific properties
 # Add your own application properties here, see the ApplicationProperties class

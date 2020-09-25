@@ -2,6 +2,7 @@ package com.sjgs;
 
 import com.sjgs.config.ApplicationProperties;
 
+import io.choerodon.resource.annoation.EnableChoerodonResourceServer;
 import io.github.jhipster.config.DefaultProfileUtil;
 import io.github.jhipster.config.JHipsterConstants;
 
@@ -20,6 +21,7 @@ import java.net.UnknownHostException;
 import java.util.Arrays;
 import java.util.Collection;
 
+@EnableChoerodonResourceServer
 @SpringBootApplication
 @EnableConfigurationProperties({LiquibaseProperties.class, ApplicationProperties.class})
 public class HzerotestApp {
