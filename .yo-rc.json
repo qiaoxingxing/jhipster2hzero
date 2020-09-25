@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.sjgs"
+    },
+    "jhipsterVersion": "6.10.3",
+    "applicationType": "microservice",
+    "baseName": "hzerotest",
+    "packageName": "com.sjgs",
+    "packageFolder": "com/sjgs",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YjNmZjU5OTVlOTlkYWFmOGI3YTEyM2FjZjIxZGI0YWRmYmJiOWFjMzk3ZmFhYTljYWJkYWQwNTRlMGIzYmY4OWUwYmI0M2Q1ZjRjYzY4N2JlZmFjYjUyZTAxNzE5MDMyNGE4OTViZTZmY2FiMzlkMDgwZmUzYzdmNzk2MTFjOGI=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1601006678436,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
