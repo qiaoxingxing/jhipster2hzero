@@ -19,14 +19,14 @@ public class TestController {
     @ApiOperation(value = "hello world")
     @Permission(level = ResourceLevel.ORGANIZATION, tags = {})
     @GetMapping
-    public ResponseEntity<String> hello(@PathVariable @ApiParam(value = "租户ID", required = true) long organizationId) {
+    public ResponseEntity<String> hello(@PathVariable @ApiParam(value = "租户ID", required = true, example = "0") long organizationId) {
         return ResponseEntity.ok("hello world");
     }
 
     @ApiOperation(value = "user")
     @Permission(level = ResourceLevel.ORGANIZATION, tags = {})
     @GetMapping("user")
-    public ResponseEntity<Object> user(@PathVariable @ApiParam(value = "租户ID", required = true) long organizationId) {
+    public ResponseEntity<Object> user(@PathVariable @ApiParam(value = "租户ID", required = true, example = "0") long organizationId) {
         CustomUserDetails userDetails = DetailsHelper.getUserDetails();
         return ResponseEntity.ok(userDetails);
     }
